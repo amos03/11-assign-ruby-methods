@@ -14,7 +14,7 @@ recipes_enjoy = gets.chomp
 
 if books_enjoy=="y"
         puts "Why don't you try #{book}?"
-elsif books_enjoy=="n" && films_enjoy=="y" &&recipes_enjoy="y"
+elsif books_enjoy=="n" && films_enjoy=="y" &&recipes_enjoy=="y"
          puts "Why don't you listen to #{song}?"
 
 end
