@@ -16,5 +16,12 @@ if books_enjoy=="y"
         puts "Why don't you try #{book}?"
 elsif books_enjoy=="n" && films_enjoy=="y" &&recipes_enjoy=="y"
          puts "Why don't you listen to #{song}?"
+         elsif films_enjoy=="y" && books_enjoy=="n" && recipes_enjoy=="n"
+            puts "Why don't you watch #{film}?"
+         elsif recipes_enjoy=="y" && books_enjoy=="n" && films_enjoy=="n"
+            puts "Why don't you prepare some #{recipe}?"
+         elsif recipes_enjoy=="n" && books_enjoy=="n" && films_enjoy=="n"
+            puts "Why don't you go grab a shawarma at Bali Laffa?"
+        
 
 end
