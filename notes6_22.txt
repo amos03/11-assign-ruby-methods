@@ -1,0 +1,6 @@
+Default parameter:
+def name (firstname="Elton",lastname="Peter")
+p "#{firstname} #{lastname}"
+end
+
+name('Sandra') --> Sandra Peter
