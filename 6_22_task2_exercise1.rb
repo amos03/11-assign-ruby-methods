@@ -12,7 +12,8 @@ films_enjoy = gets.chomp
 puts "Do you like trying new recipes? (y/n)"
 recipes_enjoy = gets.chomp
 
-case books_enjoy
-when "y"
-    puts "Why don't you try #{book}?"
+if books_enjoy=="y"
+        puts "Why don't you try #{book}?"
+if books_enjoy=="n" && films_enjoy=="y" &&recipes_enjoy="y"
+         puts "Why don't you listen to #{song}?"
 end
