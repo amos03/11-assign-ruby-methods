@@ -11,3 +11,16 @@ def cube(num)
     return num **3
 end
 p cube(4)
+
+#3. Write a method called impress_friends that takes a number as an argument. It should cube that number and return that number in a string, such as: I know numbers 
+# bigger than 9261, do you?
+
+
+def impress_friends(user_num)
+      puts "I know numbers bigger than #{cube(user_num)}, do you?"
+end
+
+puts "Please enter a number:"
+    user_num=gets.to_f
+
+impress_friends(user_num)
